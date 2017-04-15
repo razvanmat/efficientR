@@ -3,6 +3,9 @@ html:
 	cp -fvr css/style.css _book/
 	cp -fvr images _book/
 	cp -fvr _main.utf8.md _book/main.md
+# Header 1
+## Header 2
+### Header 3
 
 build:
 	make html
